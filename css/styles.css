@@ -1,0 +1,126 @@
+/*--Portfolio Color Theme--*/
+/*#05B5C8  #1D7EDB  #FEDB5E  #EFC194  #EB4434*/
+
+.container-fluid{
+  padding: 0;
+}
+/*--==Nav Bar Styles==--*/
+#navigation{
+  background-color:#1D7EDB;
+}
+/*.navbar .navbar-default{
+  background-color:#1D7EDB;
+}*/
+.navbar-brand{
+  text-decoration-style: wavy;
+  text-size:3em;
+  font-weight: bold;
+}
+nav nav-tabs{
+float: left;
+
+}
+.sm-icons{
+  width:50%;
+  margin-top:10px;
+
+  text-decoration: none;
+}
+.sm-icons a{
+  padding-right:7px;
+}
+.sm-icons i{
+   text-size: 3em;
+   color:#EB4434;
+}
+
+
+.sm-icons li{
+  text-decoration: none;
+}
+/*--==Carousel Styles==--*/
+.carousel-background{
+  background-color: #EFC194;
+}
+.carousel-container{
+   height: 450px;
+   width: 90%;
+   
+}
+.carousel-control.right{
+  right:20px;
+}
+.carousel-control.left{
+  left:20px;
+}
+
+.pic0{
+  background-image: url("../img/LibraryofCongress.jpg");
+  background-position: center;
+  background-size: cover;
+  height:400px;
+}
+.pic1{
+  background-image: url("../img/oceansidepier.jpg");
+  background-position: center;
+  background-size: cover;
+  height:400px;
+}
+.pic2{
+  background-image: url("../img/Stevedore.jpg");
+  background-position: center;
+  background-size: cover;
+  height:400px;
+}
+.pic3{
+  background-image: url("../img/cacapitol.jpg");
+  background-position: center;
+  background-size: cover;
+  height:400px;
+}
+.pic4{
+  background-image: url("../img/ggb2.jpg");
+  background-position: center;
+  background-size: cover;
+  height:400px;
+}
+
+/*--==Project Grid Styles==--*/
+
+#ProjectGrid{
+  background-color: #FEDB5E;
+  height: 400px;
+  Width: 100%;
+  padding-top:20px;
+}
+#ProjectGrid img{
+   hight: 90px;
+   width: 90px;
+
+}
+
+.caption{
+  text-align: center;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+.caption-3{
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
+
+/*--==Contact Me Section==--*/
+
+#contact-me{
+  background-color: #EFC194;
+  height: 450px;
+  width:100%;
+}
+.address well well-lg{
+  font-size: 25px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  background-color:#EB4434;
+}
+#contact-me iframe {
+  width: 20%;
+  height: 20%;
+}
