@@ -5,84 +5,49 @@
   padding: 0;
 }
 /*--==Nav Bar Styles==--*/
-#navigation{
+.navbar-default {
+    background-color: #1D7EDB;
+    border-color: #e7e7e7;
+}
+.navbar {
+
+  margin-bottom: 0px;
+}
+.navbar .navbar-default{
   background-color:#1D7EDB;
 }
-/*.navbar .navbar-default{
-  background-color:#1D7EDB;
-}*/
 .navbar-brand{
-  text-decoration-style: wavy;
-  text-size:3em;
+  font-size:2em;
   font-weight: bold;
 }
-nav nav-tabs{
-float: left;
-
-}
 .sm-icons{
-  width:50%;
   margin-top:10px;
+}
 
-  text-decoration: none;
-}
-.sm-icons a{
-  padding-right:7px;
-}
 .sm-icons i{
-   text-size: 3em;
+   font-size:2em;
+   padding-right:7px;
    color:#EB4434;
+
 }
 
-
-.sm-icons li{
-  text-decoration: none;
-}
 /*--==Carousel Styles==--*/
-.carousel-background{
+.bgstyle{
   background-color: #EFC194;
 }
-.carousel-container{
-   height: 450px;
-   width: 90%;
-   
-}
-.carousel-control.right{
-  right:20px;
-}
-.carousel-control.left{
-  left:20px;
-}
-
-.pic0{
-  background-image: url("../img/LibraryofCongress.jpg");
-  background-position: center;
+.carousel-inner .item {
   background-size: cover;
-  height:400px;
-}
-.pic1{
-  background-image: url("../img/oceansidepier.jpg");
   background-position: center;
-  background-size: cover;
-  height:400px;
+  height: 400px;
 }
-.pic2{
-  background-image: url("../img/Stevedore.jpg");
-  background-position: center;
-  background-size: cover;
-  height:400px;
+.slide-one {
+  background-image: url('../img/LibraryofCongress.jpg');
 }
-.pic3{
-  background-image: url("../img/cacapitol.jpg");
-  background-position: center;
-  background-size: cover;
-  height:400px;
+.slide-two {
+  background-image: url('../img/oceansidepier.jpg');
 }
-.pic4{
-  background-image: url("../img/ggb2.jpg");
-  background-position: center;
-  background-size: cover;
-  height:400px;
+.slide-three {
+  background-image: url('../img/stevedore.jpg');
 }
 
 /*--==Project Grid Styles==--*/
@@ -96,9 +61,8 @@ float: left;
 #ProjectGrid img{
    hight: 90px;
    width: 90px;
-
+   margin:0 auto;
 }
-
 .caption{
   text-align: center;
   font-family: 'Quattrocento Sans', sans-serif;

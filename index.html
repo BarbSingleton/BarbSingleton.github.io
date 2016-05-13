@@ -8,19 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Barb Singleton - Portfolio</title>
 <!--=====FAVICON=====-->
-<link rel="apple-touch-icon" sizes="57x57" href="img/fav/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="img/fav/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/fav/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="img/fav/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/fav/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="img/fav/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="img/fav/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="img/fav/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="img/fav/android-icon-192x192.png">
 <link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="img/fav/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
 <link rel="manifest" href="/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -36,9 +24,7 @@
 
   </head>
   <body>
-<div class="container-fluid">
 <!--==Nav Bar==-->
-<div id="navigation">
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -50,10 +36,12 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="index.html">Barb Singleton</a>
-    </div>
+     </div>
+
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
 
         <form class="navbar-form navbar-left" role="search">
           <div class="form-group">
@@ -63,138 +51,113 @@
           <!--<button type="submit" class="btn btn-default">Submit</button>-->
         </form>
 
-      <ul class="nav navbar-nav navbar-right">
-        <ul class="nav nav-tabs">
+
+
+
+      <ul class="nav navbar-nav navbar-right sm-icons">
+        <li>
+          <a href="https://twitter.com/BarbuRoo"target="_blank">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+         <a href="https://www.linkedin.com/in/barbsingleton"target="_blank">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+         <a href="https://github.com/BarbSingleton"target="_blank">
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
             <li role="presentation" class="active"><a href="#">Home</a></li>
             <li role="presentation"><a href="#">Projects</a></li>
             <li role="presentation"><a href="#">Contact</a></li>
-        </ul>
-
-      <ul class="sm-icons">
-          <li>
-            <a href="https://twitter.com/BarbuRoo"target="_blank">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-           <a href="https://www.linkedin.com/in/barbsingleton"target="_blank">
-              <i class="fa fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-           <a href="https://github.com/BarbSingleton"target="_blank">
-              <i class="fa fa-github"></i>
-            </a>
-          </li>
-      </ul>
     </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
-</navigation>
+
+
 <!--END NAV BAR-->
-<div class="carousel-background">
-<div class="carousel-container">
+
+
+
 <!--==Carousel Start==-->
-<div id="carousel-example-generic" class="center-block" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel slide bgstyle" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-  <div class="item active">
-    <div class="pic0">
-    </div>
+    <div class="item active slide-one">
       <div class="carousel-caption">
         ...
       </div>
+    </div>
+
+    <div class="item slide-two">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+    <div class="item slide-three">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
   </div>
 
-  <div class="item">
-    <div class="pic1">
-    </div>
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-
-  <div class="item">
-    <div class="pic2">
-    </div>
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-
-  <div class="item">
-    <div class="pic3">
-    </div>
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-
-   <div class="item">
-    <div class="pic4">
-    </div>
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-
-    ...
-    </div>
-
   <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-   </div>
- </div>
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
 <!--== Start Projects Grid==-->
 <div id="ProjectGrid">
+  <div class="container">
 
-<div class="row">
-  <div class="col-sm-4">
-      <img src="img/restaurantscrcap.png" class="img-responsive" "thumbnail" alt="Restaurant Website">
+    <div class="row">
+      <div class="col-sm-4">
+          <img src="img/restaurantscrcap.png" class="img-responsive thumbnail" alt="Restaurant Website">
+              <div class="caption">
+              <h3>Restaurant Website</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+              <p><a href="#" class="btn btn-primary" role="button">Go</a></p>
+              </div>
+      </div>
+
+      <div class="col-sm-4">
+        <img src="#" class="img-responsive thumbnail" alt="Political Website">
           <div class="caption">
-          <h3>Restaurant Website</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-          <p><a href="#" class="btn btn-primary" role="button">Go</a></p>
+            <h3>Political Website</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p><a href="#" class="btn btn-primary" role="button">Go</a></p>
           </div>
-  </div>
-
-  <div class="col-sm-4">
-    <img src="#" class="img-responsive" "thumbnail" alt="Political Website">
-      <div class="caption">
-        <h3>Political Website</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <p><a href="#" class="btn btn-primary" role="button">Go</a></p>
       </div>
-  </div>
 
-  <div class="col-sm-4" >
-        <img src="img/personalwebsite.png" class="img-responsive" alt="Personal Website">
-      <div class="caption">
-        <h3>Barb's Personal Website</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <p><a href="#" class="btn btn-primary" role="button">Go</a></p>
+      <div class="col-sm-4 center-block">
+            <img src="img/personalwebsite.png" class="img-responsive thumbnail" alt="Personal Website">
+          <div class="caption">
+            <h3>Barb's Personal Website</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p><a href="#" class="btn btn-primary" role="button">Go</a></p>
+          </div>
       </div>
-  </div>
-  </div>
+      </div>
+    </div>
 </div>
 
 
@@ -234,7 +197,7 @@
 <!--==Footer==-->
 
 
-</div>
+  </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script   src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
